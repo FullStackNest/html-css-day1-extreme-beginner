@@ -1,0 +1,42 @@
+/* This is called wild-card selector. This is applied to all the website. */
+* {             
+    margin: 0;
+    padding: 0; /** This is inline comment. Use this when not working with Bootstrap or else comment it & uncomment below 2 lines **/
+    /* margin: 2%;   
+    padding: 2%; */
+    box-sizing: border-box;
+}
+/* Global effects/ css */
+
+h1 {
+    color: blue;
+
+}
+
+/* CSS Selectors */
+
+/* This is called Class-selector & it is used 99% of the cases. */
+.first-div {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    color: white;
+    padding: 50px;
+}
+
+/* This is called ID-selector & it is used 99% of the cases. */
+#first-div {
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    color: white;
+}
+
+
+/**
+    Order of the CSS must be as per the way of standard practice like:
+    1st : Wild-card selector
+    2nd : Any html - element based selector
+    3rd : Class/ID which comes in order of the HTML document
+
+**/

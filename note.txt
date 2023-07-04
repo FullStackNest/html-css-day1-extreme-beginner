@@ -1,0 +1,6 @@
+======  Day-1 class for extreme beginners   ========
+index.html & 
+style.css are needed to work on
+
+
+Other files are created just for the basic idea of the file-extensions
